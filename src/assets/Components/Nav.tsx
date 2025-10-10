@@ -20,7 +20,7 @@ export const Nav = () => {
           <div className='logo-wrapper lg:text-3xl'> Gen Q. Iabichino</div>
         </Link>
         <ul className='flex items-center'>
-          <li><Link to="/about"> <button>Sobre mí</button> </Link></li>
+          <li><Link to="/about"> <button>Who this</button> </Link></li>
           <li><Link to="/portfolio"> <button>Projects</button> </Link></li>
           <li><Link to="/write-me"> <button>Write me</button> </Link></li>
         </ul>

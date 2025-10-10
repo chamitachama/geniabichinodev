@@ -3,21 +3,21 @@ export const About = () => {
         <div className="wrapper flex items-center flex-grow">
             <div className="about grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl mx-auto p-4 ">
                 <div className="col-span-1 md:col-span-3"><div>
-                    01
-                    <h2>Who this?</h2>
-                    
-                    </div>
+                    <div className="md:col-span-3">01</div>
+                    <h2 className="text-white">Who this?</h2>
+
+                </div>
                     <img className="w-full max-w-xs rounded-2xl mx-auto" src="https://media.licdn.com/dms/image/v2/D4D03AQEMxxsUXop3LQ/profile-displayphoto-scale_400_400/B4DZlhfA2TH4Ag-/0/1758277151272?e=1762992000&v=beta&t=VFP9Ue2SyanRbZIWiIj_1985om346yP-BgrdGJuiRDY" alt="Genesis Iabichino" />
                     <p>
-                        My name is Génesis, I'm currently working as a freelance Sofware developer where I'm building products since the early stages. I transitioned into engineering after having the need to build my own tools for a diverse personal projects I'm currently developing.
-                        I started learning to code in 2024 out of curiosity and soon felt in love with the posibilities, and also wanting to have a deeper understanding of how things in tech were built.
+                        Hey there! I'm Génesis, a freelance Software Developer who loves building cool stuff from the ground up. I'm passionate about crafting products that make a difference. My journey started in 2014 as a UX/UI designer. I've always been drawn to making things look and feel great. This experience gave me a unique perspective on how to bridge the gap between design and technology. I also worked with global clients to deliver automation solutions, which taught me how to align technology with business goals.
                     </p>
-                    <p> After a few months of learning, I knew that I want to become a full-time software engineer.</p>
-                    <p>I have been focusing on web development with HTML, CSS, JavaScript, TypeScript, Node.js, Express, React, Next.js</p>
-                    <p>I love solving problems and as an engineer but also as a former UX / UI designer, I'm able to combine both stacks to build production ready products</p>
+                    <p> What really sparked my interest was the magic behind how things work. So, in 2024, I dove headfirst into coding. It was love at first sight! I'm now a web development enthusiast, with a focus on HTML, CSS, JavaScript, TypeScript, Node.js, Express, React, and Next.js.</p>
+                    <p>I get a real kick out of solving problems, and I love that I can combine my UX/UI background with my engineering skills to build products that are ready for the real world.</p>
                 </div>
-                <div>02
-                    <h2>My tech Stack</h2>
+                <div className="md:col-span-3">02
+                <h2 className="text-white">My Tech Toolkit</h2>
+                </div>
+                <div>
                     <h4>I'm most experienced with</h4>
                     <ul>
                         <li className="list-tag"><kbd>HTML</kbd></li>
@@ -33,7 +33,7 @@ export const About = () => {
                     </ul>
                 </div>
                 <div>
-                    <h4>I'm familiar with</h4>
+                    <h4>I'm also familiar with</h4>
                     <ul>
                         <li className="list-tag">Python</li>
                         <li className="list-tag">TypeScript</li>
@@ -52,16 +52,20 @@ export const About = () => {
                     </ul>
 
                 </div>
-                <div>
-                    03
-                    <span>_2014-2023</span>
-                    <p>My journey in tech began as a UX/UI designer. I've always been drawn to aesthetics and well-crafted products, so moving from print design to web and app design felt like a natural evolution. And While I learned a lot during my time working with development teams across the world. I often felt there was something missing a gap between design and technology that I wanted to bridge. I was fascinated by how the tech teams brought ideas to life. Over time, I realized what truly excites me is the underlying structure and logic that makes everything work.</p>
+                <div className="md:col-span-3">03
+                <h4 className="text-white">My Story</h4>
                 </div>
                 <div>
-                    04
+
+                    <span>(the not-so-boring version)</span>
+                    <p>Back in 2014, I went back to my hometown to be part of a startup with some friends. We built the first MVP for YUMMY_club (now Yummy) in Venezuela. It was a wild ride, full of learning curves and late nights, but I wouldn't trade it for anything!</p>
+                </div>
+                <div>
                     <h1>Migration</h1>
-                    <p>In 2014 I moved back to my home town to be part of startup at the age of 21 with a group of friends during those years we developed the first MVP to YUMMY_club (now Yummy back in Venezuela) while I’ve worked with global clients to deliver automation solutions aligned with their business goals. But the Crisis hit hard and I took the oppotunity to migrate when money was evaporting because of inflation</p>
+                    <p>Then, in 2017, I decided to move to Spain, where I embraced new opportunities. Later, I decided to take a leap of faith and opened a restaurant, talk about a crash course in business! Two years after that, I moved to Barcelona, where I've been working as a designer.</p>
                 </div>
+                <div><h1>So yeah...</h1>
+                    <p> My journey hasn't always been a straight line, but it's made me who I am. I'm adaptable, I love to learn, and I'm not afraid of a challenge. I bring that same energy and enthusiasm to every project I work on.</p></div>
 
             </div>
 
