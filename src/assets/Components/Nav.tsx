@@ -14,7 +14,7 @@ export const Nav = () => {
   }, [darkMode])
 
   return (
-    <nav className=" wrapper">
+    <nav className="wrapper hola">
       <div className="header mt-1" >
         <Link to="/">
           <div className='logo-wrapper lg:text-3xl'> Gen Q. Iabichino</div>

@@ -26,16 +26,29 @@ footer {
   background-color: var(--color-primary);
   color: var(--color-bg);
   text-align: center;
-  padding: 1rem;
+  padding: 0.7rem;
 }
 
 /*Small elements*/
 
 kbd > kbd {
-  border-radius: 3px;
+  border-radius: 2px;
   padding: 3px 4px;
   background: #fff81e;
   color: black;
+}
+
+.list-tag {
+  display: inline-block;
+  background: #fff81e;
+  color: black;
+  margin-left: 4px;
+  margin-top: 4px;
+  padding: 2px 4px;
+  border-radius: 2px;
+
+
+  
 }
 
 .header{
@@ -63,35 +76,42 @@ kbd > kbd {
   max-width: var(--maxwidth);
   display: flex;
   flex-direction: column;
-  /* flex-grow: 1; */
+  flex-grow: 1;
   margin: 0 auto;
-  padding: 0 1em;
-
+  padding: 0 2em;
 }
+
 .main {
   display: flex;
   flex-grow: 1;
+  width: 100%;
+  margin: 2em 0 2em;
 
 }
+
 .intro {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  gap: 2em;
   margin-bottom: 2em;
-  max-width: 80%;
+}
+
+.intro__text{
+  max-width: 620px;
+
 }
 
 
-.intro__text h1, span{
-  max-width: 800px;
-  font-size: 2.4rem;
-  flex-grow: 1;
+.intro__text span {
+  font-size: 2rem;
   font-weight: 600;
-  margin-block: 1em;
 }
+
+
 .intro__text p {
- font-size: 1.5rem;
+ font-size: 1rem;
  max-width: 800px;
 
 }
@@ -123,4 +143,9 @@ nav ul :hover{
 
 .about p{
   padding-top: 30px;
+
+}
+
+.about > * {
+  width: 100%;
 }
