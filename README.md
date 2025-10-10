@@ -1,4 +1,4 @@
-# 🌐 Gen Iabichino — Developer Portfolio
+# 🌐 Gen Iabichino — Developer Portfolio [![Netlify Status](https://api.netlify.com/api/v1/badges/3b260f7d-a637-4ba2-9f04-89648e67448e/deploy-status)](https://app.netlify.com/projects/sage-donut-dbd7c6/deploys)
 
 Welcome to my personal portfolio  
 Built with **React + TypeScript + Vite**, this project showcases my work and skills. I hope it also serves as a **living demo** of my craftsmanship.
