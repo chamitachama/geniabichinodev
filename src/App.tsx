@@ -1,12 +1,12 @@
 import './App.css'
 import { Routes, Route } from "react-router-dom"
-import Footer from './assets/Components/footer'
-import {Nav} from './assets/Components/Nav';
-import { Home } from './assets/Pages/Home'
-import { ParticlesBackground } from './assets/Components/ParticlesBackground';
-import { About } from './assets/Pages/About';
-import { Portfolio } from './assets/Pages/Portfolio';
-import { Contact } from './assets/Pages/Contact';
+import Footer from './Components/footer';
+import { Nav } from './Components/Nav';
+import { Home } from './Pages/Home'
+import { ParticlesBackground } from './Components/ParticlesBackground';
+import { About } from './Pages/About';
+import { Portfolio } from './Pages/Portfolio';
+import { Contact } from './Pages/Contact';
 
 
 
