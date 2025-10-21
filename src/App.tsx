@@ -18,7 +18,7 @@ export const App = () => {
   return (
     <>
       <div className="flex flex-col min-h-screen">
-      <ParticlesBackground />
+      {/* <ParticlesBackground /> */}
         <Nav />
         <div className='main flex-grow'>
           <Routes>

@@ -1,8 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 :root {
   --color-bg: #4a29ae;
@@ -42,11 +37,9 @@ body {
   background-size: 10px 10px;
 }
 
-
 html, body, #root {
   height: 100%;
 }
-
 
 
 
