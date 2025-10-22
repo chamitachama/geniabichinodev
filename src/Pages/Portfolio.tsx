@@ -16,16 +16,19 @@ export const Portfolio = () => {
                             <h3 className="m-2">Quiz Over</h3>
                             <p className="m-2">Responsive quiz game built for mobile users, designed to deliver fast and interactive gameplay. (Work in progress)</p>
                         </figure>
-                        <div className="flex gap-2 place-content-between">
+                        <div className="btn flex gap-2 place-content-between">
                             <a target="_blank"
+                                className="see_repo btn"
                                 rel="noopener noreferrer"
                                 href="https://github.com/chamitachama/QuizOver"
-                                aria-label="See repository for Quiz Over on GitHub" className="see_repo">See repo ➜
+                                aria-label="See repository for Quiz Over on GitHub" 
+                                >See repo ➜
                             </a>
                             <a target="_blank"
+                                className="btn custom_button border"
                                 rel="noopener noreferrer"
                                 href="https://quizover.geniabichino.dev"
-                                className="custom_button border"> Play now
+                                > Play now
                             </a>
 
                         </div>
