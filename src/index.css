@@ -1,48 +1,91 @@
+@import "tailwindcss";
 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Theme  */
 :root {
   --color-bg: #4a29ae;
   --color-text: #f5f5f5;
   --color-primary: #1e90ff;
-  --maxwidth: 1880px;
+  --maxwidth: 1580px;
+  cursor:var(--color-bg)
 }
 
 :root.dark {
   --color-bg: #14111f;
   --color-text: #0a983e;
   --color-primary: #0a983e;
+  
 }
 
-/*  Light Mode */
+/* Body */
 body {
-  text-rendering: optimizeSpeed;
   color: var(--color-text);
-  font-family: 'Roboto Mono', monospace, sans-serif;
-  line-height: 1.6;
-  transition: background 0.3s, color 0.3s;
   background-color: var(--color-bg);
+  font-family: 'Roboto Mono', monospace;
+  transition: background 0.3s, color 0.3s;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
   background-image:
-    repeating-linear-gradient(90deg, #4a29ae 0, #4a29ae 8px, #ffffffff 8px, #d4d4d4b0 16px),
-    repeating-linear-gradient(0deg, #4a29ae 0, #4a29ae 8px, #dbdbdbb0 8px, #ffffffff 16px);
-  background-blend-mode: color-burn;
+  repeating-linear-gradient(90deg, #4a29ae 0, #4a29ae 8px, #ffffffff 8px, #d4d4d4b0 16px), repeating-linear-gradient(0deg, #4a29ae 0, #4a29ae 8px, #dbdbdbb0 8px, #ffffffff 16px); 
   background-size: 9px 9px;
+  background-blend-mode: color-burn;
+  opacity: 0.1;
+  z-index: -1;
 }
 
-/* Dark Mode */
-:root.dark body {
-  background-color: #000;
-  background-image:
-    repeating-linear-gradient(90deg, #000 0, #000 8px, #0a983e22 8px, #0a983e22 16px),
-    repeating-linear-gradient(0deg, #000 0, #000 8px, #0a983e22 8px, #0a983e22 16px);
-  background-blend-mode: difference;
-  background-size: 10px 10px;
+/* Container */
+.wrapper {
+  max-width: var(--maxwidth);
+  margin: 0 auto;
+  padding: 0 2em;
 }
 
-html, body, #root {
-  height: 100%;
+/* Buttons */
+.btn {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 200;
+  transition: filter 0.2s;
+}
+.btn:hover {
+  cursor: cell;
+}
+
+/* Cards */
+.card {
+  @apply flex flex-col border border-[var(--color-primary)] rounded-2xl p-5;
 }
 
 
+/* elements */
+.list-tag, kbd > kbd { 
+  display: inline-block; 
+  background: #fff81e; 
+  color: black; 
+  margin-left: 4px; 
+  margin-top: 4px; 
+  padding: 2px 4px; 
+  border-radius: 2px; 
+}
 
+.intro__text{
+  max-width: 600px;
+}
 
+/* navbar */
 
-
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    text-align: center;
+  }
+}
