@@ -14,7 +14,7 @@ export const About = () => {
 
                     </div>
                         <figure className="gap-6" >
-                            <img className=" rounded-2xl mb-6 " src="https://media.licdn.com/dms/image/v2/D4D03AQEMxxsUXop3LQ/profile-displayphoto-scale_400_400/B4DZlhfA2TH4Ag-/0/1758277151272?e=1762992000&v=beta&t=VFP9Ue2SyanRbZIWiIj_1985om346yP-BgrdGJuiRDY" alt="Genesis Iabichino" />
+                            <img className=" rounded-[4px] mb-6 " src="https://media.licdn.com/dms/image/v2/D4D03AQEMxxsUXop3LQ/profile-displayphoto-scale_400_400/B4DZlhfA2TH4Ag-/0/1758277151272?e=1762992000&v=beta&t=VFP9Ue2SyanRbZIWiIj_1985om346yP-BgrdGJuiRDY" alt="Genesis Iabichino" />
                             <p className="mb-4">
                                 Hey there! I'm Génesis, a freelance Software Developer who loves building cool stuff from the ground up. I'm passionate about crafting products that make a difference. My journey started in 2014 as a UX/UI designer. I've always been drawn to making things look and feel great. This experience gave me a unique perspective on how to bridge the gap between design and technology. I also worked with global clients to deliver automation solutions, which taught me how to align technology with business goals.
                             </p>
