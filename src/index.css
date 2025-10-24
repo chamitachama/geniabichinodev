@@ -10,7 +10,6 @@
 :root {
   --color-bg: #4a29ae;
   --color-text: #f5f5f5;
-  --color-primary: #1e90ff;
   --maxwidth: 1580px;
   cursor:var(--color-bg)
 }
@@ -62,7 +61,8 @@ body::before {
 
 /* Cards */
 .card {
-  @apply flex flex-col border border-[var(--color-primary)] rounded-2xl p-5;
+  @apply flex flex-col border border-[var(--color-text)] p-5;
+  border-radius:4px;
 }
 
 
