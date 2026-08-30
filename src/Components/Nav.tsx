@@ -54,7 +54,7 @@ export const Nav = () => {
               Projects
             </NavLink>
           </li>
-          {/* <li>
+          <li>
             <NavLink
               to="/write-me"
               onClick={handleLinkClick}
@@ -62,7 +62,7 @@ export const Nav = () => {
                 isActive ? "text-[#0a983e]" : "text-white"}>
               Write me
             </NavLink>
-          </li> */}
+          </li>
         </ul>
         <section className='flex items-center'>
             
